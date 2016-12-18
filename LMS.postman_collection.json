@@ -1,0 +1,210 @@
+{
+	"variables": [],
+	"info": {
+		"name": "LMS",
+		"_postman_id": "8c621265-ab17-4147-a99d-b9626d325052",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8090/authors/1",
+			"request": {
+				"url": "http://localhost:8090/authors",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/authors",
+			"request": {
+				"url": "http://localhost:8090/authors",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/author",
+			"request": {
+				"url": "http://localhost:8090/author",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"authorId\":3,\n\"authorName\":\"Jeff\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/author",
+			"request": {
+				"url": "http://localhost:8090/author",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"authorId\":2,\n\"authorName\":\"Aki\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/authors/3",
+			"request": {
+				"url": "http://localhost:8090/authors/3",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/books/1",
+			"request": {
+				"url": "http://localhost:8090/books/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/books",
+			"request": {
+				"url": "http://localhost:8090/books",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/books/3",
+			"request": {
+				"url": "http://localhost:8090/books/3",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/book",
+			"request": {
+				"url": "http://localhost:8090/book",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"bookId\": 1,\n  \"title\": \"book1\",\n  \"authorId\": 1,\n  \"publisherId\": 1\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/publishers/3",
+			"request": {
+				"url": "http://localhost:8090/publishers/3",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/publisher",
+			"request": {
+				"url": "http://localhost:8090/publisher",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"publisherId\": 3,\n    \"publisherName\": \"McGramilll\",\n    \"address\": \"FairFax\",\n    \"phone\": \"2022213232322\"\n  }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/publisher",
+			"request": {
+				"url": "http://localhost:8090/publisher",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"publisherId\": 1,\n    \"publisherName\": \"McGranhillllll\",\n    \"address\": \"Mclean\",\n    \"phone\": \"2022213322\"\n  }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/publishers",
+			"request": {
+				"url": "http://localhost:8090/publishers",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8090/publishers/1",
+			"request": {
+				"url": "http://localhost:8090/publishers/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
