@@ -65,6 +65,7 @@
 				<configuration>
 					<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
 					<dockerDirectory>src/main/docker</dockerDirectory>
+					<serverId>docker-hub</serverId>
 					<resources>
 						<resource>
 							<targetPath>/</targetPath>
